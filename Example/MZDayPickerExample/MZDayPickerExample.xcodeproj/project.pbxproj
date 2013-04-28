@@ -18,9 +18,9 @@
 		062E333F1725A9A5009B699E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 062E333E1725A9A5009B699E /* Default-568h@2x.png */; };
 		062E33421725A9A5009B699E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062E33401725A9A5009B699E /* MainStoryboard.storyboard */; };
 		062E33451725A9A6009B699E /* MZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 062E33441725A9A6009B699E /* MZViewController.m */; };
-		062E33521725A9DF009B699E /* MZDayPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 062E334C1725A9DF009B699E /* MZDayPickerCell.m */; };
-		062E33531725A9DF009B699E /* MZDayPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 062E334E1725A9DF009B699E /* MZDayPicker.m */; };
-		062E33541725A9DF009B699E /* MZDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 062E334F1725A9DF009B699E /* MZDay.m */; };
+		4D02B202172D81B700B1A717 /* MZDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B1FD172D81B700B1A717 /* MZDay.m */; };
+		4D02B203172D81B700B1A717 /* MZDayPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B1FF172D81B700B1A717 /* MZDayPicker.m */; };
+		4D02B204172D81B700B1A717 /* MZDayPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D02B201172D81B700B1A717 /* MZDayPickerCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,12 +40,12 @@
 		062E33411725A9A5009B699E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		062E33431725A9A5009B699E /* MZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MZViewController.h; sourceTree = "<group>"; };
 		062E33441725A9A6009B699E /* MZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MZViewController.m; sourceTree = "<group>"; };
-		062E334C1725A9DF009B699E /* MZDayPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZDayPickerCell.m; path = ../../../../WCDayPicker/MZDayPicker/MZDayPickerCell.m; sourceTree = "<group>"; };
-		062E334D1725A9DF009B699E /* MZDayPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZDayPickerCell.h; path = ../../../../WCDayPicker/MZDayPicker/MZDayPickerCell.h; sourceTree = "<group>"; };
-		062E334E1725A9DF009B699E /* MZDayPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZDayPicker.m; path = ../../../../WCDayPicker/MZDayPicker/MZDayPicker.m; sourceTree = "<group>"; };
-		062E334F1725A9DF009B699E /* MZDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZDay.m; path = ../../../../WCDayPicker/MZDayPicker/MZDay.m; sourceTree = "<group>"; };
-		062E33501725A9DF009B699E /* MZDayPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZDayPicker.h; path = ../../../../WCDayPicker/MZDayPicker/MZDayPicker.h; sourceTree = "<group>"; };
-		062E33511725A9DF009B699E /* MZDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZDay.h; path = ../../../../WCDayPicker/MZDayPicker/MZDay.h; sourceTree = "<group>"; };
+		4D02B1FC172D81B700B1A717 /* MZDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDay.h; sourceTree = "<group>"; };
+		4D02B1FD172D81B700B1A717 /* MZDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDay.m; sourceTree = "<group>"; };
+		4D02B1FE172D81B700B1A717 /* MZDayPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDayPicker.h; sourceTree = "<group>"; };
+		4D02B1FF172D81B700B1A717 /* MZDayPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDayPicker.m; sourceTree = "<group>"; };
+		4D02B200172D81B700B1A717 /* MZDayPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDayPickerCell.h; sourceTree = "<group>"; };
+		4D02B201172D81B700B1A717 /* MZDayPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDayPickerCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 		062E332E1725A9A5009B699E /* MZDayPickerExample */ = {
 			isa = PBXGroup;
 			children = (
-				062E334B1725A9CC009B699E /* MZDayPicker */,
+				4D02B1FB172D81B700B1A717 /* MZDayPicker */,
 				062E33371725A9A5009B699E /* MZAppDelegate.h */,
 				062E33381725A9A5009B699E /* MZAppDelegate.m */,
 				062E33401725A9A5009B699E /* MainStoryboard.storyboard */,
@@ -117,17 +117,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		062E334B1725A9CC009B699E /* MZDayPicker */ = {
+		4D02B1FB172D81B700B1A717 /* MZDayPicker */ = {
 			isa = PBXGroup;
 			children = (
-				062E334D1725A9DF009B699E /* MZDayPickerCell.h */,
-				062E334C1725A9DF009B699E /* MZDayPickerCell.m */,
-				062E33501725A9DF009B699E /* MZDayPicker.h */,
-				062E334E1725A9DF009B699E /* MZDayPicker.m */,
-				062E33511725A9DF009B699E /* MZDay.h */,
-				062E334F1725A9DF009B699E /* MZDay.m */,
+				4D02B1FC172D81B700B1A717 /* MZDay.h */,
+				4D02B1FD172D81B700B1A717 /* MZDay.m */,
+				4D02B1FE172D81B700B1A717 /* MZDayPicker.h */,
+				4D02B1FF172D81B700B1A717 /* MZDayPicker.m */,
+				4D02B200172D81B700B1A717 /* MZDayPickerCell.h */,
+				4D02B201172D81B700B1A717 /* MZDayPickerCell.m */,
 			);
 			name = MZDayPicker;
+			path = ../../../MZDayPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +201,9 @@
 				062E33351725A9A5009B699E /* main.m in Sources */,
 				062E33391725A9A5009B699E /* MZAppDelegate.m in Sources */,
 				062E33451725A9A6009B699E /* MZViewController.m in Sources */,
-				062E33521725A9DF009B699E /* MZDayPickerCell.m in Sources */,
-				062E33531725A9DF009B699E /* MZDayPicker.m in Sources */,
-				062E33541725A9DF009B699E /* MZDay.m in Sources */,
+				4D02B202172D81B700B1A717 /* MZDay.m in Sources */,
+				4D02B203172D81B700B1A717 /* MZDayPicker.m in Sources */,
+				4D02B204172D81B700B1A717 /* MZDayPickerCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

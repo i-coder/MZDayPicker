@@ -56,11 +56,7 @@ NSInteger const kDefaultFinalInactiveDays = 8;
 
 static BOOL NSRangeContainsRow (NSRange range, NSInteger row) {
 
-    if (row <= range.location+range.length  && row >= range.location ) {
-        return YES;
-    }
-    
-    return NO;
+    return NSLocationInRange(row, range);
 }
 
 @interface NSDate (Additional)
